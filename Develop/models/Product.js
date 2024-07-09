@@ -24,6 +24,7 @@ Product.init(
         notEmpty: true,
         len: [1, 100], //Making sure that the produc_name is not empty and restricting the length
     },
+  },
     price: {
       type: DataTypes.DECIMAL(10, 2),
       allowNull: false,
